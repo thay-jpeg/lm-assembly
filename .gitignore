@@ -1,0 +1,12 @@
+# Ignorar arquivos de configuração do IntelliJ
+.idea/
+*.iml
+
+# Ignorar arquivos compilados (Output)
+*.o
+*.obj
+*.exe
+*.bin
+
+# Caso compile sem extensão no linux/wsl
+main
