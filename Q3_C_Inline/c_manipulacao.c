@@ -16,11 +16,11 @@ asm(
             "bsrw %%ax, %%cx;"
 
             "movw $15, %%bx;"
-            "subw %%cx, %%bx;"      // BX = 15 - CX.
+            "subw %%cx, %%bx;"
 
             "movw %%bx, %%cx;"
             "shlw %%cl, %%ax;"
-            "movzwl %%ax, %%esi;"   // zera ESI e move AX para la
+            "movzwl %%ax, %%esi;"   // zera ESI e move AX pra la
             "shll $16, %%esi;"
 
             "movw %2, %%bx;"        // carrega 'b' em BX
