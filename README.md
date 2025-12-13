@@ -1,4 +1,4 @@
-﻿<img src="./cabecalho.png" />
+<img src="./cabecalho.png" style="width:5.36111in; height:auto;">
 
 ### Trabalho de Linguagem de Montagem
 
@@ -88,4 +88,5 @@ Gabriel Velasquez
 ---
 
 *Disciplina de Linguagens de Montagem - Ciência da Computação (2º Ano)*
+
 
