@@ -1,10 +1,10 @@
 ﻿<img src="./cabecalho.png" />
 
-## Trabalho de Linguagem de Montagem
+### Trabalho de Linguagem de Montagem
 
 Este repositório contém as implementações referentes ao trabalho da disciplina de Linguagens de Montagem do curso de Ciência da Computação (Unioeste). O projeto explora a linguagem Assembly (NASM) e a integração com a linguagem C (Inline Assembly).
 
-## 📂 Estrutura do Projeto
+### 📂 Estrutura do Projeto
 
 O projeto está organizado em três diretórios principais:
 
@@ -16,11 +16,11 @@ O projeto está organizado em três diretórios principais:
     * `c_manipulacao.c`: Manipulação e normalização de bits.
     * `d_processamento.c`: Processamento aritmético de variáveis.
 
-## ⚙️ Pré-requisitos e Configuração
+### ⚙️ Pré-requisitos e Configuração
 
 Para garantir a portabilidade e facilidade na compilação, o projeto utiliza um **Makefile**.
 
-### Ambiente Windows (via WSL)
+#### Ambiente Windows (via WSL)
 Recomendamos o uso do **WSL (Windows Subsystem for Linux)** para compilar o projeto em ambiente Windows.
 
 1.  **Instalar o WSL:**
@@ -36,7 +36,7 @@ Recomendamos o uso do **WSL (Windows Subsystem for Linux)** para compilar o proj
     sudo apt update && sudo apt install build-essential nasm gcc-multilib make
     ```
 
-### Ambiente Linux
+#### Ambiente Linux
 Se você já estiver no Linux, certifique-se de ter o `make` e as bibliotecas instaladas.
 
 * **Debian/Ubuntu:**
@@ -48,7 +48,7 @@ Se você já estiver no Linux, certifique-se de ter o `make` e as bibliotecas in
     sudo pacman -S base-devel nasm make
     ```
 
-## 🚀 Compilação e Execução
+### 🚀 Compilação e Execução
 
 O arquivo `Makefile` gerencia as flags de compilação necessárias (64 bits para a Questão 2 e 32 bits para a Questão 3).
 
@@ -63,7 +63,7 @@ Ou apenas:
 make
 ```
 
-Para compilar e rodar questões ESPECÍFICAS:
+Para compilar e rodar questões **ESPECÍFICAS**:
 
 | Questão | Comando | Descrição |
 | :---: | :---: | :---: |
@@ -79,9 +79,10 @@ Para limpar os arquivos compilados (.o, executáveis):
 make clean
 ```
 
-## 👥 Autores
+### 👥 Autores
 
 Thaynara Nascimento
+
 Gabriel Velasquez
 
 ---
