@@ -1,7 +1,6 @@
-﻿<img src="./cabecalho.png"
-style="width:5.36111in;height:1.12489in" />
+﻿<img src="./cabecalho.png" />
 
-# Trabalho de Linguagem de Montagem
+## Trabalho de Linguagem de Montagem
 
 Este repositório contém as implementações referentes ao trabalho da disciplina de Linguagens de Montagem do curso de Ciência da Computação (Unioeste). O projeto explora a linguagem Assembly (NASM) e a integração com a linguagem C (Inline Assembly).
 
@@ -88,3 +87,4 @@ Gabriel Velasquez
 ---
 
 *Disciplina de Linguagens de Montagem - Ciência da Computação (2º Ano)*
+
